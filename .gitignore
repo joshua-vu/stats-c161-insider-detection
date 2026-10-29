@@ -1,0 +1,29 @@
+# Environment & Secrets (NEVER push to GitHub)
+.env
+*.env
+.env.*
+
+# Large data directories (>2.9GB of parquet/csv files)
+data/
+*.parquet
+
+# OS & Editor files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+.vscode/
+.idea/
+
+# Jupyter & Python
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+
